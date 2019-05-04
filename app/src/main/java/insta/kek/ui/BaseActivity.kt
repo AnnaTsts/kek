@@ -1,8 +1,14 @@
-package insta.kek
+package insta.kek.ui
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import insta.kek.R
+import insta.kek.ui.chat.ChatActivity
+import insta.kek.ui.group.GroupActivity
+import insta.kek.ui.home.HomeActivity
+import insta.kek.ui.profile.ProfileActivity
+import insta.kek.ui.tags.TagsActivity
 import kotlinx.android.synthetic.main.bottom_navigation_view.*
 
 
@@ -22,7 +28,7 @@ abstract class BaseActivity(val navNumber: Int) : AppCompatActivity() {
                 when (it.itemId) {
                     R.id.nav_item_home -> HomeActivity::class.java
                     R.id.nav_item_chat -> ChatActivity::class.java
-                    R.id.nav_item_tegs -> TegsActivity::class.java
+                    R.id.nav_item_tegs -> TagsActivity::class.java
                     R.id.nav_item_group -> GroupActivity::class.java
                     R.id.nav_item_profile -> ProfileActivity::class.java
                     else -> {

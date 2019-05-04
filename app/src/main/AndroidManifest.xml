@@ -9,17 +9,18 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity">
+        <activity android:name=".ui.home.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ChatActivity"/>
-        <activity android:name=".TegsActivity"/>
-        <activity android:name=".GroupActivity"/>
-        <activity android:name=".ProfileActivity"/>
+        <activity android:name=".ui.chat.ChatActivity"/>
+        <activity android:name=".ui.tags.TagsActivity"/>
+        <activity android:name=".ui.group.GroupActivity"/>
+        <activity android:name=".ui.profile.ProfileActivity"/>
+        <meta-data android:name="preloaded_fonts" android:resource="@array/preloaded_fonts"/>
 
     </application>
 

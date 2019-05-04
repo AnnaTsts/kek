@@ -1,6 +1,8 @@
-package insta.kek
+package insta.kek.ui.group
 
 import android.os.Bundle
+import insta.kek.R
+import insta.kek.ui.BaseActivity
 
 class GroupActivity : BaseActivity(3) {
 

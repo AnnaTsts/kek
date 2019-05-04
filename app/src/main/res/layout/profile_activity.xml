@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".HomeActivity">
+        tools:context=".ui.home.HomeActivity">
 
     <android.support.v7.widget.Toolbar
             android:layout_width="match_parent"
@@ -47,7 +47,7 @@
             app:layout_constraintTop_toBottomOf="@id/toolBar"
             app:layout_constraintLeft_toLeftOf="parent"
             android:src="@drawable/pepe"
-            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintHorizontal_weight="2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toStartOf="@id/subscriptions_button"
     />
@@ -61,7 +61,7 @@
             app:layout_constraintTop_toTopOf="@id/profile_img"
             app:layout_constraintStart_toEndOf="@id/profile_img"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintHorizontal_weight="5"
 
     />
 
@@ -75,7 +75,7 @@
             app:layout_constraintTop_toBottomOf="@id/subscriber_button"
             app:layout_constraintStart_toEndOf="@id/profile_img"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintHorizontal_weight="5"
 
     />
 
@@ -88,7 +88,7 @@
             app:layout_constraintStart_toEndOf="@id/profile_img"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/group_button"
-            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintHorizontal_weight="5"
 
     />
 

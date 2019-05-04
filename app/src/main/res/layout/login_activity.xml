@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.home.HomeActivity">
+
+    <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/colorPepe"
+            android:id="@+id/insta_kek_text"
+            android:text="InstaKek"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="12sp"
+            android:autoSizeMaxTextSize="100sp"
+            android:typeface="monospace"
+            android:fontFamily="@font/judson"/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+              app:layout_constraintTop_toBottomOf="@+id/insta_kek_text"
+              android:layout_margin="16dp"
+              android:inputType="textEmailAddress"
+              android:hint="Email"
+              android:textColorLink="@color/colorPepe"
+    />
+</android.support.constraint.ConstraintLayout>

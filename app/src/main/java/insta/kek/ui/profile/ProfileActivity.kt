@@ -1,10 +1,12 @@
-package insta.kek
+package insta.kek.ui.profile
 
 import android.os.Bundle
 import android.text.Html
+import insta.kek.R
+import insta.kek.ui.BaseActivity
 import kotlinx.android.synthetic.main.profile_activity.*
 
-class ProfileActivity : BaseActivity(4) {
+class ProfileActivity : BaseActivity(4), ProfileMvpView {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,6 +24,15 @@ class ProfileActivity : BaseActivity(4) {
         geting username from presenter and seting
         username.setText("Anna Tsystyluik")
         */
+
+        /*
+
+         */
+
+    }
+
+    fun setUsername() {
+
     }
 
     fun setButtonValue() {
