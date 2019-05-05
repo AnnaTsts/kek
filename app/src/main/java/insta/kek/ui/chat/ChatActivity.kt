@@ -13,5 +13,7 @@ class ChatActivity : BaseActivity(1) {
         setContentView(R.layout.home_activity)
         setupBottomNavigation()
         Log.d(Tag, "Chat_create")
+
+
     }
 }
